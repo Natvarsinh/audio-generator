@@ -15,7 +15,7 @@ if st.button("🔊 Generate Audio"):
     if not text_input.strip():
         st.warning("Please enter some text to convert.")
     else:
-        tts = gTTS(text_input)
+        tts = gTTS(text_input, lang="hi")
         
         with tempfile.NamedTemporaryFile(delete=False, suffix=".mp3") as tmp_file:
             tts.save(tmp_file.name)
