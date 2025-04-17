@@ -9,7 +9,7 @@ st.set_page_config(page_title="Text to Audio Generator", layout="centered")
 st.title("🎧 Text to Audio Generator")
 st.markdown("Enter your text below, click **Generate**, and listen or download the audio.")
 
-text_input = st.text_area("📝 Enter Text", height=150)
+text_input = st.text_area("📝 Enter Text", height=300)
 
 if st.button("🔊 Generate Audio"):
     if not text_input.strip():
