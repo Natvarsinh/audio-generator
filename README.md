@@ -15,8 +15,8 @@ A simple and beautiful Streamlit app to convert text into speech (audio) in **Hi
 
 ---
 
-## 🚀 Demo
+## 🚀 Live Demo
 
-![Link](https://hindi-audio-generator.streamlit.app/) <!-- Replace with actual screenshot path -->
+👉 **[Try the App on Streamlit Cloud](https://hindi-audio-generator.streamlit.app)**  
 
 ---
